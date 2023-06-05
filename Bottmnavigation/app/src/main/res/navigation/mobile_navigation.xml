@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_homeFragment">
+    <fragment
+        android:id="@+id/nav_homeFragment"
+        android:name="com.example.bottmnavigation.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_personal"
+        android:name="com.example.bottmnavigation.ui.personal"
+        android:label="fragment_personal"
+        tools:layout="@layout/fragment_personal" />
+    <fragment
+        android:id="@+id/nav_bussiness"
+        android:name="com.example.bottmnavigation.ui.Bussiness"
+        android:label="fragment_bussiness"
+        tools:layout="@layout/fragment_bussiness" />
+    <fragment
+        android:id="@+id/nav_MTNMOMO"
+        android:name="com.example.bottmnavigation.ui.MTNMOMO"
+        android:label="fragment_m_t_n_m_o_m_o"
+        tools:layout="@layout/fragment_m_t_n_m_o_m_o" />
+    <fragment
+        android:id="@+id/nav_investors"
+        android:name="com.example.bottmnavigation.ui.Investors"
+        android:label="fragment_investors"
+        tools:layout="@layout/fragment_investors" />
+    <fragment
+        android:id="@+id/nav_careers"
+        android:name="com.example.bottmnavigation.ui.Careers"
+        android:label="fragment_careers"
+        tools:layout="@layout/fragment_careers" />
+    <fragment
+        android:id="@+id/nav_ourimpact"
+        android:name="com.example.bottmnavigation.ui.ourimpact"
+        android:label="fragment_ourimpact"
+        tools:layout="@layout/fragment_ourimpact" />
+    <fragment
+        android:id="@+id/nav_insurance3"
+        android:name="com.example.bottmnavigation.ui.Insurance"
+        android:label="fragment_insurance"
+        tools:layout="@layout/fragment_insurance" />
+</navigation>

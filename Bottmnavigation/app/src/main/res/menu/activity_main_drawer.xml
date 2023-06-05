@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homeFragment"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_personal"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Personal" />
+        <item
+            android:id="@+id/nav_bussiness"
+            android:icon="@drawable/ic_baseline_add_business_24"
+            android:title="Bussiness" />
+        <item
+            android:id="@+id/nav_MTNMOMO"
+            android:icon="@drawable/ic_baseline_money_24"
+            android:title="MTN-MOMO" />
+        <item
+            android:id="@+id/nav_investors"
+            android:icon="@drawable/ic_baseline_inventory_24"
+            android:title="Investors" />
+        <item
+            android:id="@+id/nav_insurance3"
+            android:icon="@drawable/ic_baseline_add_business_24"
+            android:title="insurance" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_group_work_24"
+            android:title="careers" />
+        <item
+            android:id="@+id/nav_ourimpact"
+            android:icon="@drawable/ic_baseline_child_care_24"
+            android:title="Our impact" />
+
+    </group>
+</menu>

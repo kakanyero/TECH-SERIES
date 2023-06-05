@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.kyusacco.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_aboutusFragment"
+        android:name="com.example.kyusacco.ui.aboutus.AboutusFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_contactsFragment"
+        android:name="com.example.kyusacco.ui.contacts.ContactsFragment"
+        android:label="Contacts"
+        tools:layout="@layout/fragment_contacts" />
+    <fragment
+        android:id="@+id/nav_eventsFragment"
+        android:name="com.example.kyusacco.ui.events.EventsFragment"
+        android:label="Events"
+        tools:layout="@layout/fragment_events" />
+    <fragment
+        android:id="@+id/nav_galleryFragment"
+        android:name="com.example.kyusacco.ui.gallery.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_loanProductsFragment"
+        android:name="com.example.kyusacco.ui.loanProducts.LoanProductsFragment"
+        android:label="Loan Products"
+        tools:layout="@layout/fragment_loan_products" />
+    <fragment
+        android:id="@+id/nav_productAndServicesFragment"
+        android:name="com.example.kyusacco.ui.productsorservices.ProductAndServicesFragment"
+        android:label="@string/productsand_services"
+        tools:layout="@layout/fragment_product_and_services" />
+
+
+</navigation>
